@@ -1,9 +1,9 @@
 class CLI 
   
   def initialize
+    puts "Welcome to tic tac toe!"
   end
   
-  puts "Welcome to tic tac toe!"
 
   def call
     puts "How many players? Enter 0 for a simulation, otherwise 1 or 2 players"
