@@ -38,8 +38,6 @@ class TicTacToeCLI
       play_again?
     end
   end
-  call
   
-    
     
   end
