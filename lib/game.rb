@@ -36,7 +36,8 @@ class Game
   end
 
   def winner
-    board.cells[won?[0]] if won?
+    if won = won?
+      board.cells[won.first]
   end
 
   def turn
