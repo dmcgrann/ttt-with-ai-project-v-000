@@ -5,7 +5,7 @@ class CLI
   
   puts "Welcome to tic tac toe!"
 
-  def start
+  def call
     puts "How many players? Enter 0 for a simulation, otherwise 1 or 2 players"
     input = gets.strip
     case input
@@ -23,7 +23,7 @@ class CLI
         play_again?
       else
         puts "Invalid entry."
-        start
+        call
     end
   end
     
@@ -31,14 +31,14 @@ class CLI
     input = gets.strip
     case input
     when "y"
-      start
+      call
     when "n"
       puts "See you next time!"
     else
       play_again?
     end
   end
-  start
+  call
   
     
     
