@@ -1,4 +1,4 @@
-class CLI 
+class TicTacToeCLI 
   
   def initialize
     puts "Welcome to tic tac toe!"
